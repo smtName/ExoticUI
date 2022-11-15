@@ -1,4 +1,4 @@
-local Release = "Beta 7R"
+local Release = "Beta 1"
 local NotificationDuration = 6.5
 local ExoticFolder = "ExoticUI"
 local ConfigurationFolder = ExoticFolder.."/Configurations"
@@ -869,10 +869,10 @@ function ExoticLibrary:CreateWindow(Settings)
 	LoadingFrame.Subtitle.TextTransparency = 1
 	Main.Shadow.Image.ImageTransparency = 1
 	LoadingFrame.Version.TextTransparency = 1
-	LoadingFrame.Title.Text = Settings.LoadingTitle or "ExoticUI Interface Suite"
-	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "by Sirius"
-	if Settings.LoadingTitle ~= "ExoticUI Interface Suite" then
-		LoadingFrame.Version.Text = "ExoticUI UI"
+	LoadingFrame.Title.Text = Settings.LoadingTitle or "ExoticUI"
+	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "by Exotic"
+	if Settings.LoadingTitle ~= "ExoticUI" then
+		LoadingFrame.Version.Text = "Exotic UI"
 	end
 	Topbar.Visible = false
 	Elements.Visible = false
